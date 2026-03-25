@@ -1,0 +1,13 @@
+<footer>
+  <strong>Sarah Ryan Hudson</strong> · Mitigation · Remediation · Conservation · Hampton Roads, Virginia
+</footer>
+
+<script>
+function showTab(i) {
+  document.querySelectorAll('.fe-tab').forEach((t, j) => t.classList.toggle('fe-active', i === j));
+  document.querySelectorAll('.fe-panel').forEach((p, j) => p.classList.toggle('fe-panel-active', i === j));
+}
+function toggleExp(header) {  const item = header.closest(".exp-item");
+  item.classList.toggle("open");
+}
+</script>
